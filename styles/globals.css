@@ -1,0 +1,27 @@
+:root {
+  --primary-green: #0f8a5f;
+  --secondary-green: #32c987;
+  --light-green: #e7f7ec;
+  --text-dark: #0b3321;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: var(--text-dark);
+  background: #f6fffb;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
